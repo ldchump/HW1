@@ -1,6 +1,9 @@
-#Question 1
+#Importing Dataset
 
 voting <- read.csv('Homework1_Bonds.csv')
+
+#Question 1
+
 table(voting$Result)
 prop.table(table(voting$Result))
 VtCity <- voting[voting$Type=='CITY',]
